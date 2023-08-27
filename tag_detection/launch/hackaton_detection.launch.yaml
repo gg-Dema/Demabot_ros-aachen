@@ -1,0 +1,9 @@
+launch: 
+
+  - include: 
+      file: "$(find-pkg-share tag_detection)/launch/track.launch.yaml"
+
+  - node:
+      pkg: "tag_detection"
+      exec: "apriltag_hackaton"
+      name: "aprilatg_hackaton"

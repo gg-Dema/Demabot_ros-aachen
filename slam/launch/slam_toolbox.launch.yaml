@@ -1,0 +1,25 @@
+launch:
+
+- node:
+    pkg: "slam_toolbox"
+    exec: "async_slam_toolbox_node"
+    name: "slam_toolbox"
+    param:
+    - 
+      name: "odom_frame"
+      value: "odom"
+    - 
+      name: "map_frame"
+      value: "map"
+    - 
+      name: "base_frame"
+      value: "base_link"
+    - 
+      name: "scan_topic"
+      value: "/scan"
+    - 
+      name: "mode"
+      value: "mapping"
+    - 
+      name: "enable_intercative_mode"
+      value: True

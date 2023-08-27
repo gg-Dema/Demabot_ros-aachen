@@ -1,0 +1,6 @@
+launch:
+
+- node:
+    pkg: "rplidar_ros"
+    exec: "rplidar_composition"
+    name: "lidar_node"  
